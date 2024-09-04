@@ -47,7 +47,6 @@ public class Program {
 
 		Employee emp = list.stream().filter(x -> x.getId() == idsalary).findFirst().orElse(null);
 
-		// if (pos == null) {
 		if (emp == null) {
 			System.out.println("This id does not exist!");
 		} else {
